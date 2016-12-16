@@ -10,11 +10,13 @@ public class TestFacebook {
 				
 		WebDriver driver=new FirefoxDriver();
 		
-		driver.get("http://www.facebook.com");
-		
 		driver.manage().window().maximize();
 		
-driver.findElement(By.xpath(".//*[@id='u_0_1']")).sendKeys("Test Selenium");	
+		driver.get("http://www.facebook.com");
+		
+		
+		
+driver.findElement(By.xpath(".//*[@id='u_0_1']")).sendKeys("Hey, what's up?");	
 
 	}
 
